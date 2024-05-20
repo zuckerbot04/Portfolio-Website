@@ -1,0 +1,35 @@
+
+
+.portfolio-img-container {
+    display: flex; /* Flexbox model for easy centering */
+    justify-content: center; /* Center horizontally */
+    overflow: hidden; /* Prevents image overflow */
+    height: 30vw; /* Maintain a square by setting height equal to width */
+    max-height: 300px; /* Maximum size limit */
+    margin-top: 35px; /* Space above the container */
+    margin-bottom: 35px;
+}
+
+.project-item {
+    list-style-type: none; /* This line removes the bullet points */
+    /* Add more styling here as needed */
+}
+
+.portfolio-img-2-container {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center;     /* Center vertically */
+    height: auto;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    overflow: hidden;        /* Ensures no overflow of content */
+}
+
+.portfolio_image_2 {
+    width: 50%;
+    max-height: 50%;
+    height: auto;            /* Ensures the image takes up 100% of the container width */
+    object-fit: contain;     /* Ensures the entire image fits within its bounding box */
+}
+
+

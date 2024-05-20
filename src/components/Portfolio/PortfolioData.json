@@ -1,0 +1,31 @@
+{
+    "portfolio": {
+        "title": "My Portfolio",
+        "introduction": "This collection showcases the projects I am most proud of from my undergraduate career. Each project reflects my dedication to learning and my ability to tackle diverse challenges with innovative solutions. Through these experiences, I have honed my skills, embraced new technologies, and demonstrated my commitment to continuous improvement.",
+        "projects": [
+            {
+                "id": "project1",
+                "name": "Prospera Financial Technology",
+                "description": "Our group research project for the Cloud Computing class, 'Prospera,' is a cutting-edge financial application developed using advanced cloud technologies to offer robust, scalable, and efficient financial management solutions. Prospera is designed to allow users to track their investments in stocks and ETFs, facilitating peer-to-peer transactions and enabling the effective use of excess cash.",
+                "description2": "Key to our development strategy was the use of Docker, which provided a lightweight containerization platform that allowed us to package our application with all its dependencies into a standardized unit for software development. This ensured that our application runs consistently across different computing environments, enhancing portability and productivity.",
+                "image": "./Images/portfolio_image_1.png",
+                "description3": "By leveraging these sophisticated cloud computing tools, our project aimed not just to enhance personal finance management but also to integrate modern technology to foster user interaction and financial growth. The backend, managed by Python workers, communicates with the frontend, which displays information about users' accounts and market values through a React.js coded web UI. Our system allows users to execute stock transactions effectively, where updates are handled in real-time, ensuring data consistency and reliability. The web API pulls the most recent stock prices and reports, empowering users to make informed decisions on asset management. This entire system showcases a practical implementation of cloud-native technologies to solve real-world problems in the financial sector.",
+                "image_2": "/Images/portfolio_image_2.jpg",
+                "link": "#project1"
+            },
+            {
+                "id": "project2",
+                "name": "Stock Analysis and Buy Pitch",
+                "description": "During my senior year, I managed the Information Technology sector for our investment fund and identified the semiconductor industry as a strategic addition to mitigate overall portfolio risk. I led the pitch for Texas Instruments to our value fund, conducting thorough funnel analysis to deeply understand the company's strategy and financial health. The presentation encompassed comprehensive fundamental and technical analysis, detailed pricing models, and risk assessments to evaluate the security's potential impact on the portfolio.",
+                "link": "#project2"
+            },
+            
+            {
+                "id": "project3",
+                "name": "Project 3",
+                "description": "Description of the third project.",
+                "link": "#project3"
+            }
+        ]
+    }
+}

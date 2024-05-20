@@ -1,0 +1,182 @@
+
+/* App.css */
+
+/* Reset margin and padding for all elements */
+
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-y: auto; /* Allow vertical scrolling */
+}
+
+body {
+  min-height: 500px; /* Set a minimum height */
+  background: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+h1, h3, h4, h5, h6 {
+  color: #343a40;
+}
+
+.h2 {
+  padding: 10px 5px;
+}
+
+a {
+  color: inherit; /* Links will inherit the text color from the parent */
+  text-decoration: none; /* Removes underline from links */
+}
+
+/* Flexbox utility styles */
+.flex {
+  display: flex;
+}
+
+.flex-space-between {
+  justify-content: space-between;
+}
+
+.flex-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.rounded-img {
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.footer {
+  background-color: #f8f8f8;
+  padding: 10px 0;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 -2px 4px rgba(0,0,0,0.1); /* Optional: shadow for visibility */
+}
+
+.footer-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-list img {
+  width: 75px; /* Example size, adjust as needed */
+  height: 75px; /* Same as width to maintain aspect ratio */
+  border-radius: 50%; /* Makes the image circular */
+  object-fit: cover; /* Ensures the image covers the area without distorting */
+  margin-top: 25px;
+}
+
+.container {
+  min-height: calc(100vh - 120px); /* Adjust to account for navbar and footer height */
+  margin-top: 60px; /* Adjust based on your navbar height */
+  padding: 20px; /* Example padding for content */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar-header {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.hamburger {
+  display: none; /* Hidden by default, shown only in mobile view */
+  cursor: pointer;
+  font-size: 30px;
+  margin-left: 10px; /* Spacing between logo and hamburger */
+}
+
+.navbar-nav {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+}
+
+.nav-item a {
+  text-decoration: none;
+  color: #333;
+  padding: 10px 5px; /* Adjust padding as needed */
+
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    justify-content: space-between;
+  }
+
+  .hamburger {
+    display: block;
+    position: absolute;
+    right: 50px;
+  }
+
+  .navbar-nav {
+    flex-direction: column;
+    width: 100%;
+    display: none;
+  }
+
+  .navbar-nav.open {
+    display: flex;
+  }
+
+  .nav-item {
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 10px;
+  }
+
+  .footer-list {
+    flex-direction: row; /* Stacks items vertically */
+    flex-wrap: wrap;
+  }
+
+  .footer-list img {
+    margin-top: 10px; /* Reduced margin for a tighter layout on mobile */
+    margin-bottom: 10px; /* Adds spacing between items */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+

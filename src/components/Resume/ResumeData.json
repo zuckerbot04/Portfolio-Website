@@ -1,0 +1,75 @@
+{
+    "education": [
+      {
+        "institution": "West Chester University",
+        "location": "West Chester, PA",
+        "degree": "Bachelor of Science in Computer Science",
+        "dates": "Sept 2019 – Aug 2023",
+        "details": [
+          "iOS Development: Language basics, SwiftUI, SpriteKit, MVC Pattern",
+          "Cloud Development: Cloud Computing, Virtualization, Containerization, and Orchestration",
+          "Software Engineering: Object Orientated Design Principles, Refactoring, and Design Patterns",
+          "Database Management: Table Design and Normalization, UML Design, Web-based Database System",
+          "Computer Systems: Memory hierarchy, Optimizing program performance, Operating Systems and Network functions",
+          "Statistics II: Normal Distribution, Hypothesis Testing, Linear Regression Analysis of Variance, Multiple Regression, Categorical Data and Chi-square Analysis and Nonparametric"
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "title": "Owner",
+        "company": "Shop P & S", 
+        "location": "West Chester, PA",
+        "dates": "Owner - Sep 2023 – Present",
+        "responsibilities": [
+          "Established and currently manage a sophisticated e-commerce operation on Amazon, emphasizing high-efficiency product search capabilities and advanced logistics. ",
+          "Utilize data-driven strategies to continuously refine operational processes, overseeing all aspects from inventory management to customer service, ensuring scalable business growth",
+          "My business stands out by efficiently managing the entire supply chain—from pinpointing customer needs through precise search technology to ensuring rapid delivery with state-of-the-art shipping solutions. "
+        ]
+      },
+      
+      
+      {
+        "title": "Information Technology Sector Head",
+        "company": "West Chester Investment Group",
+        "location": "West Chester, PA",
+        "dates": "Sep 2020 – Present",
+        "responsibilities": [
+          "Manages a group of analysts, with weekly meetings and teaching of appropriate topics over a semester.",
+          "Utilizing Financial Accounting concepts, Monte Carlo, VAR, Risk Analysis, Stochastic processes, Approximations, and Sentiment Analysis",
+          "Using Bloomberg Terminal to create risk models, financial forecasting, and fundamental and technical valuation, to optimize portfolio allocation and performance"
+        ]
+      },
+      {
+        "title": "Office Assistant",
+        "company": "Moreland Development LLC",
+        "location": "Philadelphia, PA",
+        "dates": "June 2021 – August 2021",
+        "responsibilities": [
+          "Determined the length of time to maintain various documents such as tax returns, human resource records, leases, sale documents, and construction documents.",
+          "Implemented this plan based on relevant documents by sorting through documents and reorganizing the files by project and year."
+        ]
+      }
+    ],
+    "projects": [
+      {
+        "name": "iOS Game",
+        "technologies": ["Swift", "SwiftUI"],
+        "date": "Dec 2022",
+        "description": "Designed and developed an engaging iOS game using Swift and SwiftUI, incorporating advanced features such as contact detection and game physics. Utilized SpriteKit to enhance visual effects and gameplay dynamics. Integrated an API to fetch and implement high-quality game images, optimizing the user interface and overall player experience. Demonstrated proficiency in mobile game development, real-time physics simulation, and API integration."
+      },
+      {
+        "name": "Financial Scraping",
+        "technologies": ["Python", "Pandas", "NumPy"],
+        "date": "March 2022",
+        "description": "Developed a sophisticated financial data scraping project for the West Chester Investment Group, utilizing APIs to fetch the most recent stock prices and financial ratios. Leveraged Pandas for advanced data manipulation and analysis, and employed NumPy for efficient numerical computations. The project enabled comprehensive fundamental analysis, providing valuable insights for investment decision-making. Demonstrated expertise in API integration, data extraction, and real-time financial analytics."
+      },
+      {
+        "name": "Financial Application",
+        "technologies": ["Python", "SQL", "Docker", "Jenkins", "Kubernetes", "JavaScript"],
+        "date": "Jan 2023 - May 2023",
+        "description": "Developed and launched a comprehensive financial application on cloud infrastructure, leveraging advanced technologies and methodologies. Implemented robust features using Python and JavaScript, ensured efficient data management with SQL, and optimized deployment through Docker and Kubernetes. Utilized Jenkins for continuous integration and continuous deployment (CI/CD), ensuring seamless updates and scalability. Applied key concepts of virtualization, containerization, and orchestration to enhance performance, security, and reliability."
+      }
+    ]
+  }
+  

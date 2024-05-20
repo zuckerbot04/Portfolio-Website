@@ -1,0 +1,44 @@
+.home-container {
+    height: 100vh; /* Full viewport height */
+    background-image: url('/Users/brandonkohler/portfolioSite/projectportfolio/public/Images/Home.jpeg');
+    background-size: cover; /* Cover the entire viewport */
+    background-position: center; /* Center the background image */
+    display: flex; /* Using Flexbox */
+    align-items: center; /* Vertical alignment */
+    justify-content: center; /* Horizontal alignment */
+    text-align: center; /* Text alignment */
+    border-radius: 20px;
+    margin-top: 10px;
+  }
+  
+  .home-Image {
+    padding: 20px; /* Padding around the text for spacing */
+    background: rgba(0, 0, 0, 0.5); /* Optional: Dark semi-transparent overlay */
+    color: white; /* Text color */
+    border-radius: 10px; /* Optional: Rounded corners for the text box */
+    max-width: 70%; /* Maximum width of the text container */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Optional: Soft shadow for better focus */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for readability */
+  }
+  
+.home-Image h1 {
+    color: white;
+}
+
+@media (max-width: 768px) {
+  .flex, .navbar, .footer-list, .contact-container, .content-wrapper {
+      flex-direction: column;
+  }
+
+
+
+  .home-container {
+      padding: 10px;
+      border-radius: 10px;
+      background: rgba(0, 0, 0, 0.5); /* Better readability for background text */
+  }
+
+  .home-Image {
+      max-width: 90%; /* Better fit for smaller screens */
+  }
+}

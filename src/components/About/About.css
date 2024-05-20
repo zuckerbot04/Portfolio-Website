@@ -1,0 +1,81 @@
+
+.about-container {
+    width: 85%;
+    min-height: 500px; /* Set a minimum height */
+    padding: 40px; /* Consistent padding */
+    margin-top: 2rem; /* Top margin, can be adjusted or removed based on your needs */
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.about-container h1 {
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+}
+
+.about-container p {
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.content-wrapper {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.Img-Container {
+    flex: 0 0 auto; /* Prevents the image container from growing */
+    display: flex; /* Establishes a flex container */
+    align-items: center; /* Centers content vertically within the container */
+    justify-content: center;
+}
+
+
+.table {
+    flex: 1; /* Allows the text section to fill the remaining space */
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.About-list li {
+    margin-bottom: 10px;
+}
+
+
+@media (max-width: 768px) {
+    .about-container {
+        padding: 20px; /* Reduces padding for smaller screens */
+        min-height: auto; /* Allows the container to grow as needed */
+    }
+
+    .about-container h1, .about-container p {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    .content-wrapper {
+        padding: 10px;
+    }
+
+    .Img-Container {
+        justify-content: center; /* Centers content for better visual appeal */
+    }
+
+    .table {
+        padding: 10px;
+    }
+}
+  
+
+  
